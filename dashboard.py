@@ -13,7 +13,7 @@ st.markdown('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allo
 # File Uploader & Default Path Logic
 fl = st.file_uploader(":file_folder: Upload a file", type=(["csv", "txt", "xlsx", "xls"]))
 
-df = pd.read_csv("Sample - Superstore.csv")
+df df = pd.read_csv("superstore_sales_analysis/Sample - Superstore.csv")
 
 if fl is not None:
     filename = fl.name
